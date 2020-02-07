@@ -1,0 +1,72 @@
+header, section, footer, aside, nav, {
+	display: block;
+}
+
+article{background: red;}
+
+header {background: green;}
+
+h1 {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+
+}
+
+.nombre {
+	background: none;
+}
+
+h2 {
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+
+}
+
+.eperiencia {background: yellow}
+
+.idiomes {background: purple}
+
+body {
+	text-align: left;
+	border: 1px solid #999999;
+
+}
+
+div {
+	width: 960px;
+	background: white;
+	margin: 15px auto;
+	padding: 40px;
+
+}
+
+nav li {
+	list-style: none;
+	padding: 5px;
+	font: bold verdana;
+	display: inline-block;
+}
+
+.lateral {
+	width: 200px
+	border: 1px solid black;
+
+}
+
+table {
+    border: 5px solid black; 
+    width: 250px; 
+    height: 250px;
+    text-align: center;
+    border-collapse: collapse;
+   }
+
+td {
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 15px;
+}
